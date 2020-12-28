@@ -8,6 +8,7 @@ cap = cv2.VideoCapture(0)
 
 while(True):
     ret, frame = cap.read()
+    frame = cv2.flip(frame, 1)
     cv2.imshow("Capturing", frame)
     cv2.imwrite(filename='webcap.jpg', img=frame)
     im  =  cv2.imread('webcap.jpg')
