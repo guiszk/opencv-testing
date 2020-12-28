@@ -13,10 +13,6 @@
 *.log
 *.pyc
 
-*.png
-*.jpg
-*.jpeg
-
 .DS_Store
 ._*
 Thumbs.db
