@@ -1,5 +1,6 @@
 #!/usr/local/bin/python3.7
 import cv2
+import os
 import matplotlib.pyplot as plt
 import cvlib
 from cvlib.object_detection import draw_bbox
@@ -19,5 +20,6 @@ while(True):
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
+os.remove('webcap.jpg')
 cap.release()
 cv2.destroyAllWindows()
