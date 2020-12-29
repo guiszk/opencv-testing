@@ -4,3 +4,4 @@ matplotlib
 cvlib
 numpy
 pillow
+icrawler
