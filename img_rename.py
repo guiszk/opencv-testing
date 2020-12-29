@@ -5,7 +5,6 @@ if(len(sys.argv) != 2 or not os.path.isdir(sys.argv[1])):
     sys.exit(1)
 
 imgdir = os.path.abspath(sys.argv[1])
-print(imgdir)
 
 a = 0
 
